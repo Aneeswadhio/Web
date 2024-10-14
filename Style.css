@@ -1,0 +1,139 @@
+*{
+    margin-left:3px;
+    margin-right:3px;
+    Padding:0;
+    font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+}
+
+/* HEADER SECTION NAVIGATION STARTS */
+#Site-name{
+    margin-top:10px;
+    margin-left:20px;
+    font-size:30px;
+}
+#nav-bar{
+     font-size:22px;
+     background-color:#f2f2f2;
+     padding:12px;
+}
+a{
+     display:inline;
+     margin-left:60px;
+     padding:12px 16px;
+     text-decoration:none;
+     color:black;
+     font-weight:bold;
+}
+
+/* HOVER EFFECTS FOR NAVIGATION LINKS  */
+a:hover{
+    color:blue;
+    transition:color 0.5s ease-in;
+}
+
+/* RESPONSIVE NAVIGATION BAR STARTS */
+
+@media(max-width:600px){
+#Site-name{
+    font-size:22px;
+    text-align: center;
+}
+#nav-bar{
+     font-size:18px;
+     background-color:#f1f2f2;
+}
+a{
+     display: block;
+     text-align:center;
+     margin-left:0px;
+     margin-top:30px;
+     font-weight:bold;
+}
+a:hover{
+    padding:12px 16px;
+    transition:background-color 0.5s ease-in;
+}
+.cover-img{
+    display:none;
+ } 
+ .titles p{
+     font-size:20px;
+     margin-top:10px;
+     padding:0px;
+ }
+ .about-text p{
+    font-size:20px;
+ }
+ .drop-down{
+    display:none;
+ }
+  .dropdown-links{
+    margin-right:0px;
+ }
+.serve ol li{
+   font-size:18px;
+   line-height:30px;
+}
+ }
+
+ /* MAIN IMG SETTINGS */
+ .cover-img{
+    width:950px;
+    height:auto;
+    border-radius:;
+    margin-top:10px;
+}
+ 
+ /* WEBSITE TITLES TEXTS STARTS */
+ 
+ .titles, p{
+     font-size:36px;
+     padding:6px;
+     margin-top:10px;
+     border-radius:20px;
+ }
+ 
+ /* DROPDOWN LINKS MENU STARTS */
+ 
+ .dropdown-links{
+    display:none;
+    position:relative;
+    z-index:1;
+    margin-top:15px;
+    float:right;
+    margin-right:60px;
+    background-color:#f2f2f2;
+    animation:fadeIn 0.8s ease-in;
+}
+.dropdown-links a{
+   display: block;
+   margin-right:40px;
+}
+.drop-down:hover .dropdown-links{
+    display:block;
+}
+
+@keyframes fadeIn{
+   0%{
+      opacity:0;
+   }
+   25%{
+      opacity:1;
+   }
+}
+
+/* SECTION TWO SERVICES  */
+.serve {
+   padding:5px;
+}
+.serve, h2{
+   font-size:36px;
+}
+.serve ol{
+   padding:35px;
+}
+.serve ol li{
+   font-size:28px;
+   line-height:60px;
+}
